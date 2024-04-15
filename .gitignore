@@ -33,3 +33,4 @@ RAMLINUX/
 *.dll
 venv/
 ProductFilter.ps1
+*.nupkg
