@@ -1,0 +1,3 @@
+Upravte readline s timeoutem na verzi SSL.
+
+Upravte ssl server tak, aby přijímal více klientů. Zvolte si zda vlákna nebo procesy. Klient bude posílat aktuální čas po vteřinách. A server bude vypisovat

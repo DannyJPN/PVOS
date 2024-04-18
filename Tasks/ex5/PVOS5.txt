@@ -1,0 +1,13 @@
+
+
+Functions for next week: pipe, mkfifo, mmap
+
+    Vytvorte binarni soubor kam ulozite 10 nahodnych cisel float a jejich soucet. Pak namapujete soubor do mapeti a overite jako float* zda soucet souhlasi.
+
+    Vytvorte dva programy.
+
+    Jeden program bude zapisovat do pojmenovane roury vzdy nahodny pocet nahodnych cisel (max. 20 cisel) a posledni cislo na radku bude jejich soucet. Pripravit buf[ 1024 ] s kompletnim radkem a jednim write zapsat do roury.
+
+    Druhy program bude data z roury cist a kontrolovat, zda na kazdem radku je soucet cisel korektni. Pouzijte svou funkci readline, vypisujte hlasku “nudim se”, kdyz se nic nedeje. Doporuceni: pouzijte sscanf a “%n” pro rozlozeni radku na cisla. Jako parametr prikazoveho radku pouzijte kolik radku ma program do roury zapsat a pauzu mezi radky: zapis 20 300000 - pocet radku a microsec. Program spustte z paralelne z vice terminalu.
+
+    Pokracujte ve vyvoji readline s timeoutem. Viz minule.

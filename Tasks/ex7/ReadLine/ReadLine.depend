@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1635838593 source:/home/fei/kru0142/PVOS/Tasks/ex7/ReadLine/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<pthread.h>
+	<string.h>
+	<errno.h>
+	<signal.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<poll.h>
+	<sys/time.h>
+

@@ -1,0 +1,10 @@
+
+
+Sockets….
+
+    Využijte implementaci soketového serveru se select/poll a z klienta posílejte požadavek na ukončení spojení jako MSG_OOB zprávu (pro poll man 7 socket). Klient svůj požadavek “close” změní na send(…, MSG_OOB);
+
+    Využijte implementaci soketového serveru se select/poll, kdy předem vytvoříte konečný počet potomků, cca 5 až 10. S potomky bude mír rodič navázené spojení pomocí socketpair.
+
+    Rodič bude pouze přijímat spojení UNIX a AF_INET a bude je rozdělovat cyklicky mezi potomky.
+

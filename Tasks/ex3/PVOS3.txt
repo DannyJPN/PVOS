@@ -1,0 +1,17 @@
+Functions for next week:
+
+open, close, read, write, ioctl, fcntl, pipe
+
+exec…
+
+select, poll
+
+Implementujte funkci int readline( int fd, void *buf, int len, int timeout_ms );. Prvni implementace staci pomoci read( fd, &ch, 1 ). Dodrzujte implementaci dle read, zaporna RETURN hodnota je chyba, kod chyby v errno.
+
+Vyuzijte funci gettimeofday, timeradd, etc…
+
+Testujte v terminalu, nastavte si stty -F /dev/tty -icanon.
+
+    Pomoci NONBLOCK
+    Pomoci select
+    Pomoci poll

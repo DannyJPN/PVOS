@@ -1,0 +1,6 @@
+1. Prebirejte statusy potomku, generujte nahodne havarie a rozpoznejte je. 
+
+2. Udrzujte cca stav 10 potomku, pricemz kazdy bezi nahodou dobu. 
+
+	pomuze waitpid(...) volba NOHANG
+

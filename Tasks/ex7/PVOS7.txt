@@ -1,0 +1,9 @@
+
+
+Functions for next week: sem_overview, sem_open, sem_wait, ….
+
+Implementujte pomoci posix a system V semaforu problem plneni prepravky.
+
+Dva a vice procesu (robotu) budou plnit prepravku o kapacite N. Roboti se nesmi nad prepravkou srazit, hlidani pomoci binarniho semaforu. Pokud bude prepravka plna, tak se dalsim semaforem probudi obsluha a vymeni prepravku. Jeden semafor bude fungovat jako citac.
+
+Zapomnel jsem jednu dulezitou vec, semafor SysV umi cekat na 0, viz sem_op. To Posix semafor neumi a musi se jeden pouzit jako citac.

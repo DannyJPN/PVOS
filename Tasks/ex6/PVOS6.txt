@@ -1,0 +1,15 @@
+
+
+Functions for next week: shared memory and semaphores.
+
+Final version of readline with timeout.
+
+    Do roury bude zapisovat vice procesu soucasne. Procesy do roury zapisou svuj PID, pak libovolny pocet cisel a na konec radku soucet.
+
+    Aby se radky nepromichaly, musite zapis pohlidat semaforem.
+
+    Ve sdilene pameti vytvorte pole 10 cisel a na konci jejich soucet. Procesy vzdy zmeni nahodne jedno cislo a upravi soucet. Kazdy proces pred zmenou zkontroluje soucet. Zmeny provadejte alespon 100x za vterinu. Spustne minimalne 10 procesu. Konzistenci dat pohlidat semaforem.
+
+    U zadani 1 nebo 2 nahradte semafor pojmenovanou rourou.
+
+    Readline - finalni verze + testovaci program.

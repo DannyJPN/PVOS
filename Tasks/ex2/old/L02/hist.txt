@@ -1,0 +1,613 @@
+    1  du -sh /
+    2  exit
+    3  ls
+    4  cat sizes.csv 
+    5  cd /home/pub
+    6  ls
+    7  ls debian_iso/
+    8  du -all --max-depth 2 debian_iso/
+    9  du -all --max-depth 2 
+   10  du -all --max-depth 2 ./
+   11  du -all --max-depth 1 ./
+   12  ls mirror/
+   13  ls mirror/ftp.cz.debian.org/
+   14  ls mirror/ftp.cz.debian.org//debian/
+   15  ls mirror/ftp.cz.debian.org//debian/dists/
+   16  ssh -l kru0142 ftp.cz.debian.org
+   17  du -all --max-depth 1 /
+   18  du -all --max-depth 1 / >> allsizes.csv
+   19  cd ›¾~
+   20  cd ../fei/kru0142
+   21  du -all --max-depth 1 / >> allsizes.csv
+   22  ls
+   23  cat allsizes.csv 
+   24  du -sh /
+   25  du / -all
+   26  exit
+   27  exit
+   28  ls
+   29  cd ..
+   30  cd ..
+   31  du -sh 
+   32  ls
+   33  du -sh fei
+   34  du --help
+   35  du -h
+   36  du -h --max-depth=1 
+   37  du -h --max-depth=1 >> ~/sizes.txt && cat ~/sizes.txt
+   38  cat ~/sizes.txt
+   39  du -sh /home/fei/sei01
+   40  exit
+   41  cd ..
+   42  cd ..
+   43  du -sh ./
+   44  du -sh pub
+   45  exit
+   46  ls
+   47  rm -rfv sizes*
+   48  mkdir POS
+   49  ls
+   50  cd POS
+   51  mkdir Tasks
+   52  mkdir Project
+   53  for i in {1..14}; do echo $i; done
+   54  for i in {1..14}; do echo "ex$i"; done
+   55  for i in {1..14}; do mkdir Tasks/"ex$i"; done
+   56  ls -r
+   57  ls -R
+   58  exit
+   59  ls POS -R
+   60  exit
+   61  ls POS -R
+   62  exit
+   63  ls
+   64  cd POS
+   65  ls
+   66  ls POS
+   67  ls Project/
+   68  ls Tasks
+   69  rm -rfv POS
+   70  ls
+   71  ls -R
+   72  exit
+   73  cd POS
+   74  rm --help
+   75  exit
+   76  ls
+   77  ls POS
+   78  ls POS/POS/
+   79  ls POS/POS/Tasks/
+   80  ls POS/Tasks/
+   81  ls POS/Tasks/ex4
+   82  ls POS/POS/Tasks/ex4
+   83  ls POS/POS/Tasks/ex4
+   84  ls POS/ls
+   85  ls POS
+   86  mv POS/POS POS
+   87  mv POS/POS/ POS
+   88  mv POS/POS POSB
+   89  ls
+   90  ls POSB
+   91  mv POSB/ POS
+   92  ls
+   93  ls POS
+   94  mv POS/POSB POSB
+   95  ls
+   96  mv POSB/ POS/
+   97  ls
+   98  ls POS
+   99  mv POS/POSB POSB
+  100  ls
+  101  ls POS
+  102  mv POSB/Tasks/ POS/Tasks/
+  103  ls
+  104  ls POSB
+  105  ls POSB -a
+  106  rm POSB
+  107  rmdir POSB
+  108  apt install sshpass
+  109  sudo apt install sshpass
+  110  exit
+  111  ls POS/Tasks/ex3
+  112  ls POS/Tasks/ex2 
+  113  ls
+  114  ls POS -R
+  115  mv POS/Tasks/Tasks/ POS/Tasks
+  116  mv POS/Tasks/Tasks/ POS/
+  117  mv POS/Tasks/Tasks/ POSB
+  118  ls
+  119  ls POSB
+  120  mv POSB/ POS/Tasks
+  121  ls POS/Tasks/
+  122  ls POS/Tasks/ex3
+  123  mv POS/Tasks/POSB POSB
+  124  ls
+  125  mv POSB/ POS
+  126  ls POS
+  127  mv POS/POSB POSB
+  128  ls
+  129  mv POSB/ex2 POS/Tasks
+  130  mv POSB/ex3 POS/Tasks
+  131  ls POS/Tasks/
+  132  ls POS/Tasks/ex3
+  133  exit
+  134  cat POS/Tasks/ex4/Parametrizace.txt 
+  135  ls -R
+  136  ls -R POS
+  137  ls
+  138  rmdir SPJA -rv
+  139  rmdir SPJA -v
+  140  rm -rfv SPJA
+  141  ls Downloads/
+  142  ls Documents/
+  143  ls
+  144  rm -frv POSB
+  145  cat POS/Tasks/ex4/miniout.txt 
+  146  ls
+  147  rm -rfv APPS
+  148  cat POS/Tasks/ex4/miniout.txt 
+  149  exit
+  150  ls
+  151  ls POS
+  152  ls POS/Tasks/ex5
+  153  exit
+  154  ls
+  155  ls POS -R
+  156  exit
+  157  cd POS/Tasks/ex6
+  158  ls
+  159  ls -alt
+  160  rm wire6.pcapng 
+  161  ls
+  162  exit
+  163  cd POS/Tasks/ex6
+  164  ls
+  165  ls -alt
+  166  exit
+  167  ls POS -R
+  168  exit
+  169  ls POS
+  170  exit
+  171  ls
+  172  mkdir S5
+  173  mv POS S5/
+  174  ls
+  175  ls S5
+  176  exit
+  177  ls
+  178  exit
+  179  ls
+  180  mkdir PB;rm -rfv cnap/
+  181  exit
+  182  virtualbox &
+  183  find -name ebian
+  184  find -name ebian /
+  185  find / -name ebian 
+  186  firefox &
+  187  ls
+  188  rm -rfv S5
+  189  rm -rfv allsizes.csv 
+  190  ifconfig
+  191  ifconfig -a
+  192  ifconfig -a
+  193  ping 192.168.56.101
+  194  ssh 192.168.56.101 -l root
+  195  ssh 192.168.56.101 -l dan
+  196  ls
+  197  mkdir SOS
+  198  cp "VirtualBox VMs" SOS -v
+  199  cp "VirtualBox VMs" SOS -ve
+  200  cp "VirtualBox VMs" SOS -vr
+  201  ls
+  202  mv "VirtualBox VMs" SOS -vr
+  203  mv "VirtualBox VMs" SOS -v
+  204  shutdown 0
+  205  du -sh ./
+  206  du -sh ./
+  207  history >> PB/Lectures/hist.txt
+  208  exit
+  209  cd Downloads/
+  210  ls
+  211  rm -rfv debian*
+  212  cd ..
+  213  ls
+  214  ls PB
+  215  ls PB/Lectures/
+  216  cat PB/Lectures/Lecture2.txt 
+  217  exit
+  218  cat Desktop/obce_psc.csv 
+  219  cat Desktop/obce_psc.csv | cut -d "," -f 1| grep 5
+  220  cat Desktop/obce_psc.csv | cut -d "," -f 1| grep 5>> testfile.txt
+  221  gedit testfile.txt 
+  222  $((1493*1493))
+  223  $((1493*10))
+  224  shutdown 0
+  225  find / >> list.txt
+  226  cat list.txt 
+  227  cat list.txt | grep "quota"
+  228  grep -help
+  229  grep -h
+  230  grep --help
+  231  cat list.txt | grep "quota" | grep -v "Armbian"
+  232  cat /home/aquota.user 
+  233  ls -al /home/aquota.user 
+  234  cat list.txt | grep "quota" | grep -v "sei01"
+  235  exit
+  236  ls /home/
+  237  for i in /home; do echo "$i";du -sh $i; done
+  238  for i in /home; do echo "$i";du -sh $i 2>/dev/null; done
+  239  cd /home
+  240  for i in *; do echo "$i";du -sh $i 2>/dev/null; done
+  241  for i in *; do du -sh $i 2>/dev/null; done
+  242  exit
+  243  du -sh
+  244  ls
+  245  rm -rfv testfile.txt 
+  246  rm -rfv PB
+  247  du -sh
+  248  exit
+  249  du -sh /home
+  250  exit
+  251  ssh debianSOSInt -l root
+  252  ifconfig
+  253  ping 192.168.53.233
+  254  ping 192.168.53.233 -c 1
+  255  ping --help
+  256  for i in {1..254}; do ping 192.168.53.$i -c 2; done
+  257  shutdown 
+  258  array="a","b","c"
+  259  $array
+  260  array=$("a","b","c")
+  261  $array
+  262  array=$("a" "b" "c")
+  263  array=$(a b c)
+  264  array=(a b c)
+  265  $array
+  266  for i in $array;do echo $i; done
+  267  for i in "${array[@]}"; do echo "$i"; done
+  268  if[[4 -le 1]] then
+  269  if[[4 -le 1]]; then
+  270  if[[4 -le 1]]; then echo "fail"; fi
+  271  if[[4 -le 1]]  then echo "fail"; fi
+  272  if[[4 -le 1]] ; then echo "fail" ; fi
+  273  if [ -e /etc/passwd ] ; then echo "DB uÅ¾ivatelÅ¯ existuje" ; fi
+  274  if [4 -le 1] ; then echo "fail" ; fi
+  275  if [ 4 -le 1 ] ; then echo "fail" ; fi
+  276  if [ 4 -gt 1 ] ; then echo "fail" ; fi
+  277  $RANDOM
+  278  echo $RANDOM
+  279  echo $RANDOM
+  280  echo $RANDOM
+  281  echo $RANDOM
+  282  echo $RANDOM
+  283  echo $RANDOM
+  284  echo $RANDOM
+  285  $array
+  286  echo $array
+  287  echo ${#array[@]}
+  288  7%6
+  289  [[7%6]]
+  290  ((7+3))
+  291  ((7+3))
+  292  echo ((7+3))
+  293  echo $((7+3))
+  294  echo $((7%3))
+  295  echo $(($RANDOM%${#array[@]}))
+  296  echo $(($RANDOM%${#array[@]}))
+  297  echo $(($RANDOM%${#array[@]}))
+  298  echo $(($RANDOM%${#array[@]}))
+  299  echo $(($RANDOM%${#array[@]}))
+  300  for i in {0..${#array[@]}}
+  301  for i in {0..${#array[@]}}
+  302  for i in {0..${#array[@]}}; do echo $i; done
+  303  for i in $(seq 0 ${#array[@]}}; do echo $i; done
+  304  for i in $(seq 0 ${#array[@]}); do echo $i; done
+  305  for i in $(seq 0 ${#array[@]}); do echo ${array[$i]}; done
+  306  ls -d
+  307  ls
+  308  ls -d *
+  309  ls --help
+  310  ls -ld
+  311  ls -ld ./
+  312  ls -ld 
+  313  ls -l 
+  314  ls -d $PWD/*
+  315  ls -d /home
+  316  ls -Rd /home
+  317  ls -Rad /home
+  318  find 
+  319  find Desktop
+  320  find Desktop > $vari
+  321  find Desktop > vari
+  322  $vari
+  323  echo $vari
+  324  for i in $(seq 0 ${#vari[@]}); do echo ${array[$i]}; done
+  325  for i in $(seq 0 ${#vari[@]}); do echo ${vari[$i]}; done
+  326  vari=$(find Desktop)
+  327  $vari
+  328  for i in $(seq 0 ${#vari[@]}); do echo ${vari[$i]}; done
+  329  vari=$(find Desktop 2> /devÃºnull)
+  330  vari=$(find Desktop 2> /dev/null)
+  331  for i in $(seq 0 ${#vari[@]}); do echo ${vari[$i]}; done
+  332  for i in ${vari}; do echo $i; done
+  333  fileext=${filename##*.}
+  334  filename=Desktop/seznam-obci-cr.txt
+  335  fileext=${filename##*.}
+  336  $fileext
+  337  eho $fileext
+  338  echo $fileext
+  339  echo ${filename##*.}
+  340  echo ${filename#*.}
+  341  echo ${filename*.}
+  342  echo ${filename#.}
+  343  echo ${filename#*.}
+  344  [ -d Desktop]
+  345  [ -d Desktop ]
+  346  [ -d Desktop ] && echo "jeto dir"
+  347  [ -d Desktop ] && echo "jeto dir" || echo "neni to dir"
+  348  [ -d Deskt ] && echo "jeto dir" || echo "neni to dir"
+  349  [ -d Deskt ] && echo "jeto dir" || echo "neni to dir"; echo "NENI"
+  350  [ -d Desktop ] && echo "jeto dir" || echo "neni to dir"; echo "NENI"
+  351  if [ -d Desktop ] ;then echo "jeto dir" ; else echo "neni to dir"; echo "NENI" fi
+  352  if [ -d Desktop ] ;then echo "jeto dir"  else echo "neni to dir"; echo "NENI" fi
+  353  if [ -d Desktop ] ;then echo "jeto dir"  else echo "neni to dir"; echo "NENI" fi fi
+  354  if [ -d Desktop ] ; then echo "jeto dir"  else echo "neni to dir"; echo "NENI" fi ;  fi
+  355  if [ -d Desktop ] ; then echo "jeto dir";  else echo "neni to dir"; echo "NENI" fi ;  fi
+  356  if [ -d Deskop ] ; then echo "jeto dir";  else echo "neni to dir"; echo "NENI" fi ;  fi
+  357  if [ -d Deskop ] ; then echo "jeto dir";  else echo "neni to dir"; echo "NENI"; fi ;  fi
+  358  if [ -d Deskop ] ; then echo "jeto dir";  else echo "neni to dir"; echo "NENI" fi ;  fi
+  359  if [ -d Deskop ] ; then echo "jeto dir";  else echo "neni to dir"; echo "NENI" ;  fi
+  360  firefox --private-window
+  361  firefox --private-window &
+  362  ls ~oli10/osy
+  363  ls ~oli10/osy/pr3
+  364  cd ~oli10/osy/pr3
+  365  ls
+  366  gedit *  c
+  367  gedit *  &
+  368  gedit zadani.txt &
+  369  ./testfork 
+  370  make testfork.cpp
+  371  cd ..
+  372  cp ./ ~/OSY/ -rv
+  373  cd ~/OSY/
+  374  ls
+  375  cd pr3
+  376  ls
+  377  gedit testfork.cpp &
+  378  make testfork.cpp 
+  379  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o -pthread -lrt
+  380  ./testfork 
+  381  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o -pthread -lrt
+  382  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o -pthread 
+  383  g++ testfork.cpp 
+  384  g++ -c testfork.cpp 
+  385  make testfork.cpp 
+  386  ./testfork 
+  387  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o -pthread 
+  388  ./testfork 
+  389  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o && g++ testfork.o -o testfork -g -pthread -lrt
+  390  g++ -c -g -std=c++11 -Wall testfork.cpp testfork.o ; g++ testfork.o -o testfork -g -pthread -lrt
+  391  ./testfork 
+  392  shutdown
+  393  find
+  394  ls -ltR
+  395  ls VirtualBox\ VMs/
+  396  ls VirtualBox\ VMs/ -a
+  397  ls VirtualBox\ VMs/ -alt
+  398  ls VirtualBox\ VMs/Debian/ -alt
+  399  firefox &
+  400  ls /home/* -d
+  401  find /home -maxdepth=1 -type d
+  402  find /home -maxdepth 1 -type d
+  403  find /home -maxdepth=1 -type d | cut -d "/" -f 1
+  404  find /home -maxdepth 1 -type d | cut -d "/" -f 1
+  405  find /home -maxdepth 1 -type d | cut -d "h" -f 1
+  406  find /home -maxdepth 1 -type d | cut -d "//" -f 1
+  407  find /home -maxdepth 1 -type d | cut -d "\/" -f 1
+  408  find /home -maxdepth 1 -type d | cut -d "/" -f 2
+  409  find /home -maxdepth 1 -type d | cut -d "/" -f 3
+  410  find /home -maxdepth 1 -type d | cut -d "/" -f 3| ls -alt
+  411  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;ls $i
+  412  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;ls $i; done
+  413  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;ls /home/$i; done
+  414  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(ls /home/$i); echo ${#list} done
+  415  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(ls /home/$i); echo ${#list}; done
+  416  ls /home/edu
+  417  gedit
+  418  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(ls /home/$i); echo ${#list[@]}; done
+  419  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(ls /home/$i -); echo ${#list[@]}; done
+  420  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(ls /home/$i -l); echo ${#list[@]}; done
+  421  ls /home/old
+  422  ls /home/fmt
+  423  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(find /home/$i ); echo ${#list[@]}; done
+  424  for i in $(find /home -maxdepth 1 -type d | cut -d "/" -f 3); do echo $i;list=$(find /home/$i 2> /dev/null); echo ${#list[@]}; done
+  425  list=$(find /home/$i 2> /dev/null)
+  426  list=$(find /home/fei 2> /dev/null)
+  427  list=$(find /home/fmmi 2> /dev/null)
+  428  echo ${#list[@]}
+  429  echo ${#list[0]}
+  430  echo ${#list[1]}
+  431  echo ${#list[3]}
+  432  for i in  $list; do echo "item: $i"; done
+  433  find /home/fei 2> /dev/null
+  434  find /home/fmmi 2> /dev/null
+  435  find /home/fmmi 2> /dev/null| grep -c
+  436  find /home/fmmi 2> /dev/null| grep -c "/"
+  437  find /home/edu 2> /dev/null| grep -c "/"
+  438  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i;listlen=$(find /home/$i 2> /dev/null|grep -c "/"); echo  done
+  439  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i; done
+  440  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i;listlen=$(find /home/$i 2> /dev/null|grep -c "/"); echo $listlen  done
+  441  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i;listlen=$(find /home/$i 2> /dev/null|grep -c "/"); echo $listlen ; done
+  442  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i;listlen=$(find /home/$i 2> /dev/null|grep -c "/"); echo $listlen; if [ $listlen -gt 100 ]; then echo "PREKROCENO" ;fi; done
+  443  for i in $(find /home -maxdepth 1 -type d |rev| cut -d "/" -f 1|rev); do echo $i;listlen=$(find /home/$i 2> /dev/null|grep -c "/"); echo $listlen; if [ $listlen -gt 100 ]; then echo "PREKROCENO" ;fi; done
+  444  ls /etc
+  445  ls /etc/cr*
+  446  ls /etc/crontab
+  447  cat /etc/crontab
+  448  find /home/f*
+  449  find /home/f* -maxdepth 1
+  450  find /home/ -maxdepth 1
+  451  find /home/ -maxdepth 1 -name f*
+  452  ls -t 
+  453  oldest = $(ls -t| head 1)
+  454  oldest = $(ls -t| head -c 1)
+  455  head --help
+  456  oldest=$(ls -t| head -c 1)
+  457  echo $oldest
+  458  ls -t| head -c 1
+  459  ls -t| head -c 1
+  460  shutdown 
+  461  du -sh
+  462  du -h --max-depth=1
+  463  ls SOS
+  464  ls SOS/VirtualBox\ VMs/
+  465  ls SOS/VirtualBox\ VMs/ -alt
+  466  ls -alt VirtualBox\ VMs/
+  467  rm -rfv SOS
+  468  ls PB
+  469  exit
+  470  du -sh
+  471  du -h --max-depth=1
+  472  rm -rfv PB
+  473  mkdir PB
+  474  du -sh
+  475  exit
+  476  shutdown 2
+  477  shutdown -c
+  478  shutdown 
+  479  passwd --help
+  480  mount --help
+  481  useradd -help
+  482  ls
+  483  mkdir SOS
+  484  exit
+  485  ls SOS
+  486  ls
+  487  ls SOS
+  488  exit
+  489  cd ..
+  490  ls sei*
+  491  ls sei* -alt
+  492  du -sh sei01
+  493  exit
+  494  cd /
+  495  ls
+  496  cd /home
+  497  ls
+  498  ls edu
+  499  du -sh
+  500  ls
+  501  wget -rk poli.cs.vsb.cz
+  502  apt install pluma
+  503  sudo apt install pluma
+  504  mkdir PVOS
+  505  cd PVOS
+  506  cp ~oli10/pvos-2021/pr01/ L01/ -rv
+  507  ls
+  508  mv Lecture1.cpp L01/Lecture1.cpp
+  509  ls
+  510  cd L01
+  511  ls
+  512  gedit *
+  513  gedit * &
+  514  cd ~
+  515  ls
+  516  cd ..
+  517  tar -cavf kru0142.tar.gz kru0142
+  518  cd ~
+  519  for i in *; do echo "tar $i"; done
+  520  for i in *; do echo "tar -cavf $i.tar.gz $i"; done
+  521  for i in *; do tar -cavf "$i.tar.gz" $i; done
+  522  ls
+  523  cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv
+  524  cd PVOS/L01/
+  525  ls
+  526  cd ~
+  527  ls *tar*
+  528  rm -rfv *tar*
+  529  ls
+  530  cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv
+  531  gedit PVOS/L01/pr01/main.cpp &
+  532  cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv
+  533  for i in {0..20}; do echo $i; done
+  534  for i in {0..20}; do cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv; done
+  535  for i in {0..20}; do cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv;sleep 300; done
+  536  for i in {0..20}; do cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv;sleep 3; done
+  537  for i in {0..20}; do cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv;sleep 300; done
+  538  for i in {0..20}; do cp ~oli10/pvos-2021/pr01/ ~/PVOS/L01/ -rv;sleep 30; done
+  539  man waitpid
+  540  ma nwait
+  541  man wait
+  542  ps ax | grep mainex
+  543  killall mainex
+  544  kill mainex
+  545  kill 42779
+  546  ps ax | grep mainex
+  547  ps ax 
+  548  ps ax | grep mainex
+  549  watch "ps ax | grep mainex" 
+  550  ls
+  551  cd PV
+  552  cd PVOS/
+  553  ls
+  554  cd L
+  555  cd L01/
+  556  ls
+  557  make
+  558  gedit Makefile &
+  559  make
+  560  g++ -g -pthread -std=c++11 mainex1.cpp -o mainex1
+  561  ls
+  562  ./mainex1 
+  563  make
+  564  rm -rfv mainex1
+  565  make
+  566  ls
+  567  ./mainex1 
+  568  man wait
+  569  make
+  570  ./mainex1 
+  571  man malloc
+  572  ./mainex1 
+  573  make
+  574  ./mainex1 
+  575  make
+  576  ./mainex1 
+  577  man rand()
+  578  man rand
+  579  rand()
+  580  rand()%10
+  581  make
+  582  make && ./mainex1 
+  583  shutdown 
+  584  for i in *; do tar -cavf "$i.tar.gz" $i; done
+  585  ls
+  586  ls *tar*
+  587  rm *tar* -rfv
+  588  ls
+  589  rm -rfv OSY
+  590  rm -rfv POS;rm -rfv POS;
+  591  rm -rfv SOS;rm -rfv POS;
+  592  ls
+  593  cat vari
+  594  du
+  595  ls
+  596  ls -alt
+  597  du -h
+  598  du -h --max-depth=1
+  599  rm -rfv VirtualBox\ VMs/
+  600  sudo apt install pluma
+  601  ls
+  602  time find /
+  603  shutdown
+  604  ls
+  605  cd PVOS
+  606  ls
+  607  mkdir L02
+  608  cd L02
+  609  ls
+  610  history
+  611  xclock
+  612  kill -l
+  613  history>>hist.txt

@@ -1,0 +1,23 @@
+
+
+Functions for next week:
+
+Async I/O.
+
+    Pomoci signalu SIGIO a asynchronni komunikace implementujte program, ktery bude mit vice potomku, min. 5 a potomci budou svymi rourami posilat data rodici. Rodic bude data asynchronne vyzvedavat z rour.
+
+    Bude potreba pouzit sigaction s funkci void (*sa_sigaction)(int, siginfo_t *, void *); a flag SA_SIGINFO a v sig-hendleru rozpoznat zdroj - souborovy deskriptor.
+
+    Pomoci AIO asynchonni komunikace implementujte opet rodice s vice potomky, min. 5 a data z rour vyzvedavejte pomoci aio_read a aiocb. Informaci o splneni aio pozadavku prebirejte pomoci signalu a pak pomoci vlakna.
+
+    Implementujte funkci readline s timeoutem a vnitrnim bufferem, aby se necetlo po bytech. (ukol rozlozen do nasledujicich 2 tydnu, je potreba si to promyslet, popsat si pozadavky a implementovat)
+
+    readline je programatorska etuda - implementace rady problemu
+    muze byt vyrovnavaci buffer lokalni promenna?
+    muze byt pouze jeden buffer? Sparovat buffer a file descriptor
+    test: echo -en " jojo nene " | ./readline_tout
+    test: while true; do echo -en " jojo nene "; sleep 1; done | ./readline_tout
+    co kdyz je radek delsi nez buffer?
+    muze se prepsat na konci radku?
+    co na konci souboru?
+    kdyz nastane timeout, co s neuplnymi daty v bufferu?

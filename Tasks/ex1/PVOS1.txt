@@ -1,0 +1,8 @@
+
+
+    Vytvořte proces s několika potomky. Procesy potomků skončí s náhodným návratovým kódem, nebo chybou,
+	např. špatný ukazatel, dělení nulou, a pod. Rodičovský proces u všech potomků rozpozná, jak byl proces ukončen a s jakým kódem.
+
+    Vytvořte proces který si bude neustále udržovat 10 potomků. Potomci budou pracovat náhodně dlouhý čas v rozmezí 1-20 sec.
+
+    Použijte wait. Lépe waitpid s option WNOHANG.

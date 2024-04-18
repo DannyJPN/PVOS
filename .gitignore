@@ -34,3 +34,4 @@ RAMLINUX/
 venv/
 ProductFilter.ps1
 *.nupkg
+*SAMPLY_*/

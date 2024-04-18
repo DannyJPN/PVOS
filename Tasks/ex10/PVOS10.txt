@@ -1,0 +1,10 @@
+
+
+Sockets continue….
+
+    Upravte ve všech 3 případech soketové servery, aby příjimaly spojení na AF_INET i AF_UNIX soketu.
+
+    Upravte klienta, aby navázal spojení na IP nebo na UNIX socket. Např. volba -U.
+
+    Jaký je rozdíl mezi SOCK_STREAM a SOCK_DGRAM pro AF_UNIX? Ukažte na příkladu a krátce popište do zdrojáku. Nápověda “man 7 unix”.
+

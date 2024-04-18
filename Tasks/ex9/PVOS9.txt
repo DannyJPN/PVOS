@@ -1,0 +1,9 @@
+
+
+Next topic: sockets
+
+Napište socket server, který bude schopen komunikovat s více klienty současně. Klienti budou odesílat řádky s náhodným počtem náhodných čísel. Na začátku řádku mějte pořadové číslo řádku. Odpovídejte klientovi číslem řádku a informací GOOD/BAD. Posílejte alespoň 100 řádků za vteřinu.
+
+    Implementujte pomocí vláken (vytvoření nového vlákna za accept)
+    Implementujte pomocí procesů
+    Implementujte server pomocí select/poll. Použít vector/vector

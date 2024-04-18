@@ -1,0 +1,7 @@
+
+
+Next topic: System V and Posix Message Queue
+
+Viz. minulé zadání a nepoužívejte fork(), pokud chcete jeden zdrojový kód, odlišujte roli programu argumenty při spuštení.
+
+Implementujte problém plnění přepravky pomocí fronty zpráv Posix a System V.

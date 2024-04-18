@@ -1,0 +1,15 @@
+
+
+Functions for next week:
+
+pthread_create, _join, _self, _exit
+
+open, close, read, write, pipe
+
+printf, scanf, fflush, fdopen, fileno, …
+
+    Pomoci printf implementujte “vrtulku” ze znaku “-/|\”. Pouzijte dve implementace. Jednu pomoci fflush, druhou pomoci nastaveni bufferu.
+
+    Vytvarejte N procesu na vterinu. while ( 1 ) { ... fork ... usleep ... waitpid}, kde N bude nejprve 10, pak 100 a na konec 1000. Potomci budou zit nahodny cas <0-10> vteriny, rizeni pomoci usleep. Zachytavejte signal SIGCHLD a presunte waitpid do signal-handleru. Pocitejte pocet signalu a pocet ukoncenych potomku. Pocitadla v globalnich promennych. Funkce waitpid musi byt ve while.
+
+    Overte, kolik bezicich vlaken muze mit proces. Dale overte kolik vlaken se da postupne vytvorit bez join a detach (vlakna mohou koncit okamzite).
