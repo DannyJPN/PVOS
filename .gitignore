@@ -35,3 +35,9 @@ venv/
 ProductFilter.ps1
 *.nupkg
 *SAMPLY_*/
+LUCI/
+*certs/
+*crt
+*key
+*pem
+LocalSettings.php
